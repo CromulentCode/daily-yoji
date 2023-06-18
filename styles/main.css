@@ -19,6 +19,12 @@ p {
     color: var(--text);
 }
 
+.color-effect {  /* Text transitions from black at the start to blue at the end */
+    background: linear-gradient(120deg, var(--primary-button), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #container {
     max-width: 1200px;
     margin: auto;
@@ -31,8 +37,10 @@ nav ul {
 }
 
 nav ul > li a {
-    font-size: 4rem;
-    font-family: kanjiCalligraphy;
+    font-size: 2rem;
+    font-family: Inter, serif;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 nav a {
