@@ -1,0 +1,41 @@
+@font-face {
+    font-family: kanjiCalligraphy;
+    src: url(../assets/fonts/KouzanMouhituFontOTF.otf);
+}
+
+:root {
+    --text: #000000;
+    --background: #e6e1f9;
+    --primary-button: #000000;
+    --secondary-button: #8cbaf9;
+    --accent: #0d2cff;
+}
+
+body {
+    background-color: var(--background);
+}
+
+p {
+    color: var(--text);
+}
+
+#container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul > li a {
+    font-size: 4rem;
+    font-family: kanjiCalligraphy;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text);
+}
