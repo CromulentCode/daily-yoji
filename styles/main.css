@@ -47,3 +47,24 @@ nav a {
     text-decoration: none;
     color: var(--text);
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main ruby {
+    display: flex;
+    flex-direction: column;
+    font-family: kanjiCalligraphy, Meiryo, serif;
+    font-size: 5rem;
+    text-align: center;
+    padding: 0;
+}
+
+main rt {
+    font-family: serif;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
